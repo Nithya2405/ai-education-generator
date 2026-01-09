@@ -21,11 +21,11 @@ def load_model():
     model_name = "microsoft/Phi-3-mini-4k-instruct"
 
     model = AutoModelForCausalLM.from_pretrained(
-        model_name,
-        device_map="cuda" if torch.cuda.is_available() else "cpu",
-        torch_dtype="auto",
-        trust_remote_code=False
-    )
+    model_name,
+    torch_dtype="auto"
+)
+
+
 
     tokenizer = AutoTokenizer.from_pretrained(model_name)
 
