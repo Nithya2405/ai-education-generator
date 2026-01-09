@@ -1,19 +1,37 @@
 # AI Educational Content Generator
 
-A production-grade AI system for generating structured academic content for higher education.
+A production-grade AI platform for generating structured academic content for higher education.
 
-## Features
-• UG/PG/Diploma aware content  
-• Bloom’s taxonomy aligned outputs  
-• FDP & curriculum design ready  
-• Powered by Microsoft Phi-3 Mini LLM  
-• GPU/CPU auto scalable  
+![UI Home](assets/ui-home.png)
+![Generated Content](assets/ui-generated-content.png)
 
-## Run Locally
+---
 
-pip install -r requirements.txt  
+## What This Does
+
+An AI system that creates lecture-ready educational content based on:
+- Discipline
+- Course / Topic
+- Learner Level
+- Academic Goal
+- Output Structure
+
+Built using Microsoft Phi-3 Mini LLM.
+
+---
+
+## Key Capabilities
+
+• Bloom’s Taxonomy aligned content  
+• UG / PG / Diploma aware  
+• FDP, curriculum and exam ready  
+• Auto GPU/CPU selection  
+• Classroom-ready outputs  
+
+---
+
+## How to Run Locally
+
+```bash
+pip install -r requirements.txt
 streamlit run app.py
-
-## Deployment
-
-Deployable on Streamlit Cloud, HuggingFace Spaces, or private servers.
