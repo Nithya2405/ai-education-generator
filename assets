@@ -1,0 +1,5 @@
+ai-education-content-generator/
+   app.py
+   requirements.txt
+   README.md
+   assets/
