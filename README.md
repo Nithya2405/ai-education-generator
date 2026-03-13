@@ -6,7 +6,8 @@ A production-grade AI platform for generating structured academic content for hi
 ![Generated Content](assets/ui-generated-content.png)
 
 ---
-
+#Project link: 
+(https://nithya2405.github.io/ai-education-generator/)
 ## What This Does
 
 An AI system that creates lecture-ready educational content based on:
